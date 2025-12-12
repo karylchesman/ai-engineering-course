@@ -1,11 +1,13 @@
 [project]
-name = "system-retrieval-fundamentals"
+name = "ai-engineering-course"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "groq>=0.37.1",
     "nltk>=3.9.2",
+    "python-dotenv>=1.2.1",
     "rank-bm25>=0.2.2",
     "scikit-learn>=1.7.2",
     "whoosh>=2.7.4",
