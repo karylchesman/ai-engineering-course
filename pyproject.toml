@@ -10,6 +10,7 @@ dependencies = [
     "numpy>=2.3.5",
     "openai>=2.11.0",
     "python-dotenv>=1.2.1",
+    "qdrant-client>=1.16.2",
     "rank-bm25>=0.2.2",
     "scikit-learn>=1.7.2",
     "sentence-transformers>=5.2.0",
