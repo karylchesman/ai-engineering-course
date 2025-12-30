@@ -1,10 +1,8 @@
 {
-    "[python]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
-        },
-        "editor.defaultFormatter": "charliermarsh.ruff"
-    },
-    "pylint.enabled": false,
+    "cSpell.words": [
+        "chunker",
+        "Chunker",
+        "docling",
+        "huggingface"
+    ],
 }
