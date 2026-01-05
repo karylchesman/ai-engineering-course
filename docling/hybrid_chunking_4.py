@@ -24,3 +24,6 @@ for i, chunk in enumerate(chunks):
     print(f"==={i}===\n")
     txt_tokens = tokenizer.count_tokens(chunk.text)
     print(f"chunk.text ({txt_tokens} tokens):\n{chunk.text!r}")
+
+print(chunks[4].meta.doc_items[0].prov[0].page_no)
+print(chunks[4].meta.headings)
