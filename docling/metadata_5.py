@@ -2,6 +2,9 @@ import textwrap
 
 import langextract as lx
 from docling.document_converter import DocumentConverter
+from dotenv import load_dotenv
+
+load_dotenv()
 
 converter = DocumentConverter()
 result = converter.convert("./2408.09869v5.pdf")
