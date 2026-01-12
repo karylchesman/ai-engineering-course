@@ -3,6 +3,9 @@
         "chunker",
         "Chunker",
         "docling",
-        "huggingface"
+        "dotenv",
+        "fastembed",
+        "huggingface",
+        "qdrant"
     ],
 }
