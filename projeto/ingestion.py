@@ -4,7 +4,6 @@ import uuid
 from dotenv import load_dotenv
 from fastembed import TextEmbedding
 from qdrant_client import QdrantClient, models
-from sympy import content
 
 load_dotenv()
 
