@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "docling>=2.65.0",
     "groq>=0.37.1",
+    "hdbscan>=0.8.41",
     "langextract>=1.1.1",
     "nltk>=3.9.2",
     "numpy>=2.3.5",
