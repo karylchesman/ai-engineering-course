@@ -25,7 +25,7 @@ class SemanticChunker:
 
     def _cluster_and_process(self, texts, min_size: int):
         if len(texts) <= 1:
-            return texts if len(texts) == 1 else []
+            return texts, texts if len(texts) == 1 else []
 
         embeddings = self.model.encode(texts, show_progress_bar=False)
         labels = hdbscan.HDBSCAN(
@@ -66,7 +66,7 @@ class SemanticChunker:
 
     def create_chunks(self, text_content: str):
         paragraphs = [
-            p.strip() for p in text_content.split("\n") if len(p.strip()) > 10
+            p.strip() for p in text_content.split("\n") if len(p.strip().split()) > 10
         ]
         if not paragraphs:
             return []

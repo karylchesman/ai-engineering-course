@@ -4,6 +4,7 @@
         "Chunker",
         "docling",
         "dotenv",
+        "edgar",
         "fastembed",
         "huggingface",
         "qdrant"
