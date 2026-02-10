@@ -19,6 +19,7 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "sentence-transformers>=5.2.0",
     "whoosh>=2.7.4",
+    "yfinance>=1.1.0",
 ]
 
 [dependency-groups]
